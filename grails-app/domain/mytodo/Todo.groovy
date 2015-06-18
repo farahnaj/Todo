@@ -10,5 +10,6 @@ class Todo {
 
     static mapping = {
         table "Todo"
+        sort "due_date"
     }
 }
